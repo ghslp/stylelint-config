@@ -1,0 +1,20 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "cSpell.words": [
+    "ghslp",
+    "Heaslip",
+    "peerdeps",
+    "stylelint"
+  ],
+  "search.exclude": {
+    "CHANGELOG.markdown": true,
+    "LICENSE": true,
+    "package-lock.json": true
+  },
+}
