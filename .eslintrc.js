@@ -1,5 +1,7 @@
+require("@rushstack/eslint-patch/modern-module-resolution");
+
 const eslintConfig = {
-  extends: ["@ghslp/eslint-config"],
+  extends: ["@grantheaslip/eslint-config"],
 };
 
 module.exports = eslintConfig;

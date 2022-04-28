@@ -1,4 +1,4 @@
-# @ghslp/stylelint-config
+# @grantheaslip/stylelint-config
 
 Shared [Stylelint](https://stylelint.io/) config for personal projects.
 
@@ -7,8 +7,8 @@ Shared [Stylelint](https://stylelint.io/) config for personal projects.
 ### Install
 
 ```sh
-npm install @ghslp/stylelint-config --dev
-npx install-peerdeps @ghslp/stylelint-config --dev
+npm install @grantheaslip/stylelint-config --dev
+npx install-peerdeps @grantheaslip/stylelint-config --dev
 ```
 
 ### Add to Stylelint config
@@ -17,7 +17,7 @@ Create a `stylelint.config.js` containing (at least) the following:
 
 ```js
 const stylelintConfig = {
-  extends: ["@ghslp/stylelint-config"],
+  extends: ["@grantheaslip/stylelint-config"],
 };
 
 module.exports = stylelintConfig;
