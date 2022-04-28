@@ -1,34 +1,34 @@
 {
-  "name": "@ghslp/stylelint-config",
+  "name": "@grantheaslip/stylelint-config",
   "version": "0.1.0",
   "description": "Shared Stylelint config for personal projects",
   "author": {
     "name": "Grant Heaslip",
-    "email": "g@hslp.ca",
-    "url": "https://g.hslp.ca/"
+    "email": "grant@grantheaslip.ca",
+    "url": "https://grantheaslip.ca/"
   },
   "license": "MIT",
-  "repository": "ghslp/stylelint-config",
+  "repository": "grantheaslip/stylelint-config",
   "files": [],
   "main": "index.js",
   "scripts": {
     "eslint": "eslint . --ext js,ts"
   },
   "dependencies": {
+    "@grantheaslip/eslint-config": "^0.1.1",
     "@stylelint/postcss-css-in-js": "^0.37.2",
-    "postcss": "^8.4.5",
+    "postcss": "^8.4.12",
     "postcss-syntax": "^0.36.2",
     "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^24.0.0",
+    "stylelint-config-standard": "^25.0.0",
     "stylelint-order": "^5.0.0"
   },
   "devDependencies": {
-    "@ghslp/eslint-config": "^0.1.0",
-    "@types/node": "^16.11.17",
-    "eslint": "^7.32.0",
-    "prettier": "^2.5.1"
+    "@types/node": "^16.11.32",
+    "eslint": "^8.14.0",
+    "prettier": "^2.6.2"
   },
   "peerDependencies": {
-    "stylelint": "^14.2.0"
+    "stylelint": "^14.8.0"
   }
 }
